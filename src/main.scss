@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Primary and theme colour
+$color-primary: rgb(21, 21, 23); // # // Standard dark colour
+$color-secondary: rgb(91, 15, 211); // #; // Purple
+$color-brand-01: rgb(251, 164, 65); // # // Orange
+
+//TYPOGRAPHY
+/*
+$logo-font-family: 'MTTMilano', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
+$body-font-family: 'Roboto', sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 400;
+
+
+@font-face { 
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Helvetica"), url("./assets/fonts/Helvetica.ttf"), 
+  format("truetype");
+} 
+@font-face { 
+  font-family: "Helvetica";
+  font-style: oblique;
+  font-weight: 400;
+  src: local("Helvetica"), url("./assets/fonts/Helvetica-Oblique.ttf"), 
+  format("truetype");
+} 
+@font-face { 
+  font-family: "Helvetica";
+  font-style: light;
+  font-weight: 200;
+  src: local("Helvetica"), url("./assets/fonts/helvetica-light-587ebe5a59211.ttf"), 
+  format("truetype");
+} 
+@font-face { 
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Helvetica"), url("./assets/fonts/Helvetica-Bold.ttf"), 
+  format("truetype");
+} 
+@font-face { 
+  font-family: "MTTMilano";
+  font-style: normal;
+  font-weight: 700;
+  src: local("MTTMilano"), url("./assets/fonts/MTTMilano-Black.otf"), 
+  format("opentype");
+} 
+@font-face { 
+  font-family: "MTTMilano";
+  font-style: normal;
+  font-weight: 700;
+  src: local("MTTMilano"), url("./assets/fonts/MTTMilano-Bold.otf"), 
+  format("opentype");
+} 
+*/
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
